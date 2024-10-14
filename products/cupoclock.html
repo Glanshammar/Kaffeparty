@@ -7,42 +7,135 @@
   <link rel="icon" type="image/png" href="../media/coffeeicon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" href="../styles/theme.css">
 </head>
 
-<body>
-<header class="bg-dark text-white py-3">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h1>Brewtopia</h1>
-      </div>
+<body class="d-flex flex-column min-vh-100">
+  <!-- Header -->
+  <header class="py-3 coffee-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Brewtopia</h1>
+        </div>
 
-      <div class="col-md-6">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="../index.html">Hem</a></li>
-            <li class="nav-item"><a class="nav-link" href="../products.html">Produkter</a></li>
-            <li class="nav-item"><a class="nav-link" href="../about.html">Om oss</a></li>
-          </ul>
-        </nav>
-      </div>
+        <div class="col-md-6">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Hem</a></li>
+              <li class="nav-item"><a class="nav-link" href="../products.html">Produkter</a></li>
+              <li class="nav-item"><a class="nav-link" href="../about.html">Om oss</a></li>
+            </ul>
+          </nav>
+        </div>
 
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<main>
-  <div class="col-md-6">
-    <h1>Cup O' Clock</h1>
-  </div>
-</main>
+  <!-- Main Content -->
+  <main class="flex-grow-1">
 
-<!-- Footer -->
-<footer class="bg-dark text-white py-3 mt-5">
-  <div class="container text-center">
-    <p>&copy; 2024 Brewtopia. Webmaster: Andreas Johansson</p>
-  </div>
-</footer>
+    <nav class="navbar navbar-expand-lg navbar-light bg-coffee">
+      <div class="container">
+        <a class="navbar-brand" href="#">Cup O' Clock</a>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://via.placeholder.com/500x500?text=Cup+O'+Clock" alt="Cup O' Clock" class="product-image">
+        </div>
+        <div class="col-md-6">
+          <h1>Cup O' Clock</h1>
+          <p class="lead">Your Perfect Brew, Anytime, Anywhere</p>
+          <h2 class="text-primary">$129.99</h2>
+          <p>Experience the convenience of freshly brewed coffee wherever your adventures take you with the revolutionary Cup O' Clock portable coffee machine.</p>
+          <button class="btn btn-primary btn-lg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="text-center">
+            <i class="bi bi-lightning-charge feature-icon"></i>
+            <h3>Quick Brew</h3>
+            <p>Hot, delicious coffee in just 90 seconds</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center">
+            <i class="bi bi-battery-charging feature-icon"></i>
+            <h3>Long-lasting Battery</h3>
+            <p>Brew up to 8 cups on a single charge</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center">
+            <i class="bi bi-gear feature-icon"></i>
+            <h3>Versatile</h3>
+            <p>Compatible with ground coffee and pods</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h2>Key Features</h2>
+          <ul>
+            <li>Compact Design: Fits easily in your backpack or travel bag</li>
+            <li>Rechargeable Battery: Brew up to 8 cups on a single charge</li>
+            <li>Versatile Brewing: Compatible with ground coffee and coffee pods</li>
+            <li>Temperature Control: Enjoy your coffee at the perfect temperature</li>
+            <li>Quick Brew: Hot, delicious coffee in just 90 seconds</li>
+            <li>Easy to Clean: Dishwasher-safe components</li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h2>Product Specifications</h2>
+          <table class="table">
+            <tr><th>Dimensions</th><td>8" x 3" x 3"</td></tr>
+            <tr><th>Weight</th><td>1.2 lbs</td></tr>
+            <tr><th>Capacity</th><td>8 oz</td></tr>
+            <tr><th>Battery Life</th><td>Up to 8 brews</td></tr>
+            <tr><th>Charging Time</th><td>2 hours</td></tr>
+            <tr><th>Pressure</th><td>15 bar</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h2>The Perfect Companion for Coffee Lovers</h2>
+          <p>Whether you're camping in the wilderness, working from a remote location, or simply enjoying a day at the beach, Cup O' Clock ensures you never have to compromise on your coffee quality. Its innovative design combines portability with professional-grade brewing technology, delivering barista-quality coffee wherever you are.</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h2>What's in the Box</h2>
+          <ul>
+            <li>Cup O' Clock portable coffee machine</li>
+            <li>USB-C charging cable</li>
+            <li>Ground coffee adapter</li>
+            <li>Coffee pod adapter</li>
+            <li>Travel case</li>
+            <li>User manual</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-3 coffee-footer">
+    <div class="container text-center">
+      <p>&copy; Brewtopia 2024. Webmaster: Andreas Johansson</p>
+    </div>
+  </footer>
 
 </body>
 </html>
