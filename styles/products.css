@@ -38,3 +38,15 @@
     background-color: #3C2A21;
     border-color: #3C2A21;
 }
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.feature-icon {
+    font-size: 2rem;
+    color: #8B4513;
+}
+.bg-coffee {
+    background-color: #D2B48C;
+}
