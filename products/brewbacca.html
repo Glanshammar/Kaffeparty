@@ -7,42 +7,127 @@
     <link rel="icon" type="image/png" href="../media/coffeeicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="../styles/theme.css">
 </head>
 
-<body>
-<header class="bg-dark text-white py-3">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h1>Brewtopia</h1>
-            </div>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header class="py-3 coffee-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Brewtopia</h1>
+                </div>
 
-            <div class="col-md-6">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">Hem</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../products.html">Produkter</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../about.html">Om oss</a></li>
-                    </ul>
-                </nav>
-            </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Hem</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../products.html">Produkter</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../about.html">Om oss</a></li>
+                        </ul>
+                    </nav>
+                </div>
 
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<main>
-    <div class="col-md-6">
-        <h1>Brewbacca</h1>
-    </div>
-</main>
+    <!-- Main Content -->
+    <main class="flex-grow-1">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../media/coffee-machines/brewbacca.jpeg" alt="Brewbacca Kaffemaskin" class="product-image" width="500" height="500">
+                </div>
+                <div class="col-md-6">
+                    <h1>Brewbacca</h1>
+                    <p class="lead">Den ultimata kaffekompanjonen för hem och caféer</p>
+                    <h2 class="text-primary">1999 kr</h2>
+                    <p>Upplev kraften i Brewbacca, en kaffemaskin i toppklass som kan brygga alla typer av kaffe med precision och enkelhet. Perfekt för både hemmabaristas och professionella caféer.</p>
+                    <button class="btn btn-primary btn-lg">Lägg i varukorgen</button>
+                </div>
+            </div>
 
-<!-- Footer -->
-<footer class="bg-dark text-white py-3 mt-5">
-    <div class="container text-center">
-        <p>&copy; 2024 Brewtopia. Webmaster: Andreas Johansson</p>
-    </div>
-</footer>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <i class="bi bi-cup-hot feature-icon"></i>
+                        <h3>Mångsidig bryggning</h3>
+                        <p>Gör alla typer av kaffe från espresso till kallbryggt</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <i class="bi bi-gear feature-icon"></i>
+                        <h3>Precisionskontroll</h3>
+                        <p>Justera temperatur, tryck och bryggtid</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <i class="bi bi-house-door feature-icon"></i>
+                        <h3>Redo för hem & café</h3>
+                        <p>Lämplig för både personligt och kommersiellt bruk</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h2>Huvudfunktioner</h2>
+                    <ul>
+                        <li>Multibryggningsfunktion: espresso, droppkaffe, pour-over, kallbryggt</li>
+                        <li>15-bars tryckpump för perfekt espressoextraktion</li>
+                        <li>Dubbelt värmesystem för samtidig bryggning och ångning</li>
+                        <li>Anpassningsbara användarprofiler för personlig bryggning</li>
+                        <li>Inbyggd kvarn med 40 malningsinställningar</li>
+                        <li>7" pekskärm med intuitivt gränssnitt</li>
+                        <li>Wi-Fi-anslutning för fjärrstyrning och uppdateringar</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>Tekniska specifikationer</h2>
+                    <table class="table">
+                        <tr><th>Mått</th><td>38 x 30,5 x 45,7 cm</td></tr>
+                        <tr><th>Vikt</th><td>13,6 kg</td></tr>
+                        <tr><th>Effekt</th><td>1500W</td></tr>
+                        <tr><th>Vattentank</th><td>2,5L</td></tr>
+                        <tr><th>Bönbehållare</th><td>500g</td></tr>
+                        <tr><th>Garanti</th><td>2 år</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <h2>Kafferevolutionen</h2>
+                    <p>Brewbacca är inte bara en kaffemaskin; det är en revolution inom kaffebryggning. Oavsett om du är en hemmaentusiast eller caféägare levererar Brewbacca barista-kvalitet på kaffe med oöverträffad konsistens. Den avancerade tekniken och användarvänliga gränssnittet gör det enkelt att skapa den perfekta koppen varje gång, oavsett din expertisnivå.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <h2>Detta ingår</h2>
+                    <ul>
+                        <li>Brewbacca kaffemaskin</li>
+                        <li>58mm portafilter</li>
+                        <li>Mjölkskumningskanna</li>
+                        <li>Rengöringskit</li>
+                        <li>Vattenfilter</li>
+                        <li>Användarmanual</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-3 coffee-footer">
+        <div class="container text-center">
+            <p>&copy; Brewtopia 2024. Webmaster: Andreas Johansson</p>
+        </div>
+    </footer>
 
 </body>
 </html>
