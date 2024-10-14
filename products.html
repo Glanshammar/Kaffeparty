@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brewtopia - Produkter</title>
     <link rel="icon" type="image/png" href="media/coffeeicon.png">
-    <link rel="stylesheet" href="styles/products.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/theme.css">
 </head>
 
-<body>
-    <header class="bg-dark text-white py-3">
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header class="py-3 coffee-header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -32,16 +34,17 @@
         </div>
     </header>
 
-    <main>
+    <!-- Main Content -->
+    <main class="flex-grow-1">
         <div class="container mt-5">
             <h2 class="mb-4">Kaffemaskiner</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <a href="products/cupoclock.html" class="text-decoration-none">
                         <div class="card h-100 product-card">
-                            <img src="media/coffee-machines/cupoclock.jpeg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 1">
+                            <img src="media/coffee-machines/caffe-amante.jpeg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 1">
                             <div class="card-body">
-                                <h5 class="card-title">Cup O' Clock</h5>
+                                <h5 class="card-title">Caffé Amanté</h5>
                                 <p class="card-text">En fantastisk kaffemaskin för hemmabruk.</p>
                                 <p class="card-text"><strong>Pris: 999 kr</strong></p>
                             </div>
@@ -65,9 +68,22 @@
                 <div class="col">
                     <a href="products/brewbacca.html" class="text-decoration-none">
                         <div class="card h-100 product-card">
-                            <img src="media/coffee-machines/caffe-amante.jpeg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
+                            <img src="media/coffee-machines/cupoclock.jpg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
                             <div class="card-body">
-                                <h5 class="card-title">Caffé Amanté</h5>
+                                <h5 class="card-title">Cup O' Clock</h5>
+                                <p class="card-text">En portabel kaffemaskin som du kan ta med dig.</p>
+                                <p class="card-text"><strong>Pris: 599 kr</strong></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="products/brewbacca.html" class="text-decoration-none">
+                        <div class="card h-100 product-card">
+                            <img src="media/coffee-machines/maestosa1.jpg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Maestosa Modell A</h5>
                                 <p class="card-text">En fantastisk kaffemaskin för hemmabruk.</p>
                                 <p class="card-text"><strong>Pris: 1999 kr</strong></p>
                             </div>
@@ -78,9 +94,9 @@
                 <div class="col">
                     <a href="products/brewbacca.html" class="text-decoration-none">
                         <div class="card h-100 product-card">
-                            <img src="media/coffee-machines/brewbacca.jpeg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
+                            <img src="media/coffee-machines/maestosa2.jpg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
                             <div class="card-body">
-                                <h5 class="card-title">Kaffemaskin Modell B</h5>
+                                <h5 class="card-title">Maestosa Modell B</h5>
                                 <p class="card-text">En fantastisk kaffemaskin för hemmabruk.</p>
                                 <p class="card-text"><strong>Pris: 1999 kr</strong></p>
                             </div>
@@ -91,22 +107,9 @@
                 <div class="col">
                     <a href="products/brewbacca.html" class="text-decoration-none">
                         <div class="card h-100 product-card">
-                            <img src="media/coffee-machines/brewbacca.jpeg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
+                            <img src="media/coffee-machines/maestosa3.jpg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
                             <div class="card-body">
-                                <h5 class="card-title">Kaffemaskin Modell B</h5>
-                                <p class="card-text">En fantastisk kaffemaskin för hemmabruk.</p>
-                                <p class="card-text"><strong>Pris: 1999 kr</strong></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col">
-                    <a href="products/brewbacca.html" class="text-decoration-none">
-                        <div class="card h-100 product-card">
-                            <img src="media/coffee-machines/brewbacca.jpeg" class="card-img-top img-fluid product-image" alt="Kaffemaskin 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Kaffemaskin Modell B</h5>
+                                <h5 class="card-title">Maestosa Modell C</h5>
                                 <p class="card-text">En fantastisk kaffemaskin för hemmabruk.</p>
                                 <p class="card-text"><strong>Pris: 1999 kr</strong></p>
                             </div>
@@ -116,24 +119,72 @@
 
             </div>
 
-            <h2 class="mt-5 mb-4">Kaffeparty</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>För företag</h3>
-                    <p>Vi erbjuder skräddarsydda kaffeparty-lösningar för företag...</p>
+            <section class="kaffeparty-section mt-5 mb-4">
+                <h2 class="text-center mb-4">Upptäck Våra Kaffeparty</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mb-3">För Företag</h3>
+                                <img src="media/coffeeparty2.jpg" alt="Företagskaffeparty" class="img-fluid rounded mb-3">
+
+                                <p class="card-text">
+                                    Lyft er företagskultur med våra skräddarsydda kaffeparty-lösningar. Vi erbjuder:
+                                </p>
+
+                                <ul>
+                                    <li>Expertledda kaffeprovningar</li>
+                                    <li>Teambuilding genom baristakurser</li>
+                                    <li>Skräddarsydda event för upp till 100 personer</li>
+                                    <li>Mobila kaffebarer för konferenser och mässor</li>
+                                </ul>
+
+                                <p>
+                                    Perfekt för att stärka teamkänslan, fira framgångar eller imponera på kunder. Låt oss skapa en unik kaffeupplevelse som passar just ert företag!
+                                </p>
+
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary w-100">Boka Företagsevent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mb-3">För Privatpersoner</h3>
+                                <img src="media/coffeeparty.jpg" alt="Privat kaffeparty" class="img-fluid rounded mb-3">
+
+                                <p class="card-text">
+                                    Förvandla ditt hem till ett exklusivt kaffecafé med våra privata kaffeparty. Vi erbjuder:
+                                </p>
+
+                                <ul>
+                                    <li>Personliga kaffeprovningar med rare bönor</li>
+                                    <li>Lär dig konsten att brygga perfekt kaffe</li>
+                                    <li>Skräddarsydda menyer för olika smaker</li>
+                                    <li>Professionell barista på plats</li>
+                                </ul>
+
+                                <p>
+                                    Perfekt för födelsedagar, bröllopsfester eller bara en unik kväll med vänner. Låt oss ta din kaffeupplevelse till nästa nivå!
+                                </p>
+
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary w-100">Boka privat kaffeparty</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>För privatpersoner</h3>
-                    <p>Upplev våra exklusiva kaffeparty i hemmet...</p>
-                </div>
-            </div>
+            </section>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-3 mt-5">
+    <footer class="py-3 coffee-footer">
         <div class="container text-center">
-            <p>&copy; 2024 Brewtopia. Webmaster: Andreas Johansson</p>
+            <p>&copy; Brewtopia 2024. Webmaster: Andreas Johansson</p>
         </div>
     </footer>
 
